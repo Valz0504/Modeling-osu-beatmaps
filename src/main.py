@@ -120,8 +120,8 @@ def average_weight(G):
 if __name__ == "__main__":
 
     # this path is adjustable
-    osu_file = "beatmaps/TRUE - Soundscape (SkyFlame) [Easy].osu"
-    
+    osu_file = "beatmaps/Jeff Williams feat. Casey Lee Williams - Time to Say Goodbye (TV Size) (My Angel Ram) [Smoke's Extreme].osu"
+
     hit_objects = parse_hit_objects(osu_file)
     print(f"Parsed {len(hit_objects)} hit objects.")
 
